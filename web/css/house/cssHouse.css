@@ -1,0 +1,40 @@
+.container {
+    max-width: 1700px; /* Hoặc một giá trị khác tùy thuộc vào thiết kế của bạn */
+    margin: 0 auto; /* Căn giữa container trong trình duyệt */
+    padding: 20px; /* Khoảng cách bên trong */
+}
+.table {
+    border-collapse: collapse; /* Để bỏ kẻ dọc */
+}
+.table th, .table td {
+    border-bottom: 2px solid #dee2e6; /* Chỉ kẻ ngang */
+    text-align: center;
+}
+.table tr:hover {
+    background-color: #f8f9fa; /* Màu nền khi hover */
+    cursor: pointer; /* Con trỏ chuột biến thành pointer khi hover */
+}
+.modal-header {
+    background-color: #f44336;
+    color: white;
+}
+.modal-footer .btn-danger {
+    background-color: #f44336;
+    border-color: #ff8c00;
+}
+.pagination-container {
+    display: flex;
+    justify-content: flex-end; /* Căn về phía bên phải */
+    margin-top: 20px; /* Khoảng cách từ phần nội dung trên */
+}
+.form-section {
+    margin-bottom: 30px;
+}
+.form-label {
+    font-weight: bold;
+}
+.number-total {
+    color: #f44336;
+}
+
+
